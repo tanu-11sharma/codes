@@ -1,0 +1,12 @@
+public class TWP{
+    public static void main(String[] args){
+        int arr1 = {4 , 3 , 2 , 6 , 5};
+        System.out.print("The largest element of an array is " +  sort(arr1));
+        int arr2 = { 2, 6, 8, 4, 3};
+        System.out.println(" The largest element of an array is " + sort(arr2));
+    } 
+    static int sort(int arr[]) {
+        Arrays.sort(arr);
+        return arr[arr.length-1];
+    }
+}
